@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.gradient {
+  background-image: radial-gradient(red, yellow 50%);
+}
+
+.inner-box {
+  background-color: #111111;
+}
+
+.inner-input {
+  background: black;
+  border-style: solid;
+  border-color: #414141;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 2px 4px;
+}
+
